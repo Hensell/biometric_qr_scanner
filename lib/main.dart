@@ -15,6 +15,14 @@ class MyApp extends StatelessWidget {
       child: MaterialApp.router(
         debugShowCheckedModeBanner: false,
         routerConfig: routesConfiguration,
+        title: 'Biometric QR scanner',
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(
+            brightness: Brightness.light,
+            seedColor: const Color(0xFFAC92A6),
+            contrastLevel: 1,
+          ),
+        ),
       ),
     );
   }

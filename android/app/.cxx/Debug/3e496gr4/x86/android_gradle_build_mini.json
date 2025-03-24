@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/hensell/Documentos/Programs/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/hensell/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/hensell/Projects/Flutter/biometric_qr_scanner/android/app/.cxx/Debug/3e496gr4/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/hensell/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/hensell/Projects/Flutter/biometric_qr_scanner/android/app/.cxx/Debug/3e496gr4/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

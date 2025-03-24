@@ -1,0 +1,2 @@
+/home/hensell/Projects/Flutter/biometric_qr_scanner/android/app/.cxx/Debug/3e496gr4/x86_64/CMakeFiles/edit_cache.dir
+/home/hensell/Projects/Flutter/biometric_qr_scanner/android/app/.cxx/Debug/3e496gr4/x86_64/CMakeFiles/rebuild_cache.dir

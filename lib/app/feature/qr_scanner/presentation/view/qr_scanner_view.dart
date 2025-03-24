@@ -1,3 +1,4 @@
+import 'package:biometric_qr_scanner/app/core/global_widget/custom_button.dart';
 import 'package:biometric_qr_scanner/app/feature/qr_scanner/presentation/cubit/qr_scanner_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -58,7 +59,7 @@ class _QrScannerViewState extends State<QrScannerView> {
 
           final content = Container(
             width: double.infinity,
-            color: Colors.black87,
+            color: Colors.black12,
             alignment: Alignment.center,
             padding: const EdgeInsets.all(16),
             child: Column(
@@ -67,7 +68,6 @@ class _QrScannerViewState extends State<QrScannerView> {
                 Text(
                   displayText,
                   style: const TextStyle(
-                    color: Colors.white,
                     fontSize: 20,
                   ),
                   textAlign: TextAlign.center,
@@ -76,19 +76,20 @@ class _QrScannerViewState extends State<QrScannerView> {
                 if (isSaving)
                   const CircularProgressIndicator()
                 else
-                  ElevatedButton(
-                    onPressed: canSave
+                  CustomButton(
+                    text: "Guardar código",
+                    onPress: canSave
                         ? () {
                             final scannedCode = (state).scannedCode;
+
                             cubit.saveCode(scannedCode);
                           }
                         : null,
-                    child: const Text("Guardar código"),
                   ),
                 const SizedBox(height: 8),
-                ElevatedButton(
-                  onPressed: () => context.go('/'),
-                  child: const Text("Volver al inicio"),
+                CustomButton(
+                  text: "Volver al inicio",
+                  onPress: () => context.go('/home_screen'),
                 ),
               ],
             ),

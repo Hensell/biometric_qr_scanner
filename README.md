@@ -71,6 +71,19 @@ Funciona con cámara nativa, Room Database en Android y almacenamiento seguro co
 
 ---
 
+## 🔨 Cómo ejecutar el proyecto localmente
+
+¿Querés clonar y ejecutar el proyecto en tu máquina? Seguí estos pasos:
+
+### 1️⃣ Requisitos previos
+
+- ✅ [Flutter SDK](https://docs.flutter.dev/get-started/install) (recomendado: versión estable)
+- ✅ [Android Studio](https://developer.android.com/studio) (con emulador o dispositivo físico)
+- ✅ Tener configurado un emulador o conectar tu teléfono por USB
+- ✅ Android SDK (incluido en Android Studio)
+
+### 2️⃣ Clonar el repositorio
+
 ## ✨ Autor
 
 Desarrollado por Hensell.

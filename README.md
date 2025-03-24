@@ -84,8 +84,28 @@ Funciona con cámara nativa, Room Database en Android y almacenamiento seguro co
 
 ### 2️⃣ Clonar el repositorio
 
+```bash
+git clone https://github.com/tu-usuario/biometric_qr_scanner.git
+cd biometric_qr_scanner
+```
+### 3️⃣ Instalar dependencias
+
+```bash
+flutter pub get
+```
+### 4️⃣ Ejecutar en un dispositivo
+
+```bash
+flutter run
+```
+
+## ⚠️ Nota
+
+-El proyecto utiliza código nativo en Android, por lo que no es compatible con iOS.
+
+---
 ## ✨ Autor
 
-Desarrollado por Hensell.
+Hensell Espinoza
 
 ---
